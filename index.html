@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="AegisSec — authorized cybersecurity and ethical hacking services.">
+<title>AegisSec — Cybersecurity & Ethical Hacking</title>
+<link rel="stylesheet" href="assets/style.css"></head><body>
+<header class="header"><div class="container navwrap">
+<a class="brand" href="#home"><i>A</i>Aegis<span>Sec</span></a>
+<button class="menu" aria-label="Open menu" aria-expanded="false">☰</button>
+<nav><a href="#home">Home</a><a href="#services">Services</a><a href="#about">About</a><a href="#policy">Security Policy</a><a class="cta" href="#contact">Request Assessment</a></nav>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="container hero-grid"><div>
+<small>AUTHORIZED CYBERSECURITY</small><h1>Find the weakness <em>before attackers do.</em></h1>
+<p>Professional penetration testing, vulnerability assessment, and security consulting for organizations that want measurable security improvements.</p>
+<div class="actions"><a class="btn primary" href="#contact">Request an Assessment →</a><a class="btn" href="#services">Explore Services</a></div>
+<div class="trust">✓ Written authorization required　 ✓ Confidential reporting　 ✓ Responsible disclosure</div>
+</div><div class="terminal"><div class="termbar">● ● ● <b>security-assessment</b></div><pre>$ aegissec assess --scope approved
+[+] Scope verified
+[+] Attack surface mapped
+[+] Controls tested
+[+] Findings validated
+
+SEVERITY     FINDINGS
+Critical     0
+High         2
+Medium       5
+Low          8
+
+$ report --generate
+✓ Executive summary ready
+✓ Technical evidence ready</pre></div></div></section>
+
+<section class="section" id="services"><div class="container"><small>WHAT WE DO</small><h2>Security services built around your risk.</h2>
+<div class="cards">
+<article><b>01</b><h3>Web Application Testing</h3><p>Assess authorized web applications for authentication, authorization, input validation, business-logic and configuration weaknesses.</p></article>
+<article><b>02</b><h3>API Security Testing</h3><p>Review approved APIs for access-control, validation, authentication, rate-limit and configuration weaknesses.</p></article>
+<article><b>03</b><h3>Network Security</h3><p>Assess exposed services, segmentation, configuration and attack paths within an authorized environment.</p></article>
+<article><b>04</b><h3>Mobile App Security</h3><p>Security assessment of authorized Android/iOS applications and supporting APIs.</p></article>
+<article><b>05</b><h3>Cloud Security</h3><p>Review authorized cloud identity, storage, network exposure and configuration controls.</p></article>
+<article><b>06</b><h3>Security Audit</h3><p>Turn validated findings into prioritized remediation actions and practical improvements.</p></article>
+</div></div></section>
+
+<section class="section band"><div class="container split"><div><small>OUR PROCESS</small><h2>Test responsibly. Report clearly. Improve continuously.</h2></div>
+<div class="steps"><p><b>01</b><strong>Scope</strong> — define targets, exclusions, rules and authorization.</p><p><b>02</b><strong>Assess</strong> — test only the approved environment.</p><p><b>03</b><strong>Report</strong> — evidence, severity and remediation guidance.</p></div></div></section>
+
+<section class="section" id="about"><div class="container split"><div><small>ABOUT AEGISSEC</small><h2>Security testing with a clear ethical boundary.</h2><p>Our goal is simple: help authorized clients understand their real-world security exposure and fix it.</p><p>We focus on validated findings, useful evidence, business impact, and remediation guidance. Engagements are limited to assets and actions explicitly approved by the client.</p></div>
+<div class="values"><p><b>01</b><strong>Authorization first</strong><br><span>No approved scope, no testing.</span></p><p><b>02</b><strong>Evidence driven</strong><br><span>Findings are reproducible and documented.</span></p><p><b>03</b><strong>Responsible disclosure</strong><br><span>Clear communication of security issues.</span></p></div></div></section>
+
+<section class="section band" id="policy"><div class="container narrow"><small>SECURITY POLICY</small><h2>Rules for safe and authorized security work.</h2>
+<h3>1. Authorization & scope</h3><p>Testing begins only after appropriate authorization and an agreed scope, rules of engagement and testing window.</p>
+<h3>2. Data protection</h3><p>We minimize collection of sensitive data and avoid unnecessary exposure of personal or confidential information.</p>
+<h3>3. Safe testing</h3><p>Testing is designed to reduce disruption. Destructive actions, persistence, data exfiltration and denial-of-service activity are excluded unless explicitly approved in writing.</p>
+<h3>4. Reporting</h3><p>Findings include severity, evidence, affected assets, business impact and practical remediation guidance.</p>
+<h3>5. Prohibited requests</h3><p>We do not accept unauthorized compromise, credential theft, malware deployment, fraud, or other unlawful activity.</p>
+</div></section>
+
+<section class="section" id="contact"><div class="container contact"><div><small>START A PROJECT</small><h2>Tell us what you need to secure.</h2><p>This static GitHub Pages version sends the request through your email client. Connect the form to your Django API later for database-backed requests.</p></div>
+<form id="form"><label>Name<input id="name" required></label><label>Email<input id="email" type="email" required></label><label>Company<input id="company"></label><label>Service<select id="service"><option>Web Application Penetration Testing</option><option>API Security Testing</option><option>Network Security Assessment</option><option>Mobile App Security Testing</option><option>Cloud Security Assessment</option><option>Vulnerability Assessment</option><option>Security Audit / Consultation</option></select></label><label>Project description<textarea id="description" rows="6" required placeholder="High-level scope, goals and timeline. Do not include passwords or secrets."></textarea></label><label class="check"><input id="authorized" type="checkbox" required>I confirm I am authorized to request security testing for the described target.</label><button class="btn primary" type="submit">Send Assessment Request →</button><small>No passwords, tokens, private keys, or secrets should be submitted.</small></form></div></section>
+</main>
+<footer><div class="container foot"><div><a class="brand" href="#home"><i>A</i>Aegis<span>Sec</span></a><p>Authorized security testing, practical risk reduction, and responsible disclosure.</p></div><div><b>Explore</b><a href="#services">Services</a><a href="#about">About</a><a href="#policy">Security Policy</a></div><div><b>Contact</b><a href="#contact">Request an Assessment</a><a href="mailto:security@example.com">security@example.com</a></div></div><div class="container copy">© 2026 AegisSec. All rights reserved.</div></footer>
+<script src="assets/app.js"></script></body></html>
